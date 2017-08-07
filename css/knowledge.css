@@ -8,25 +8,36 @@ h1 {
   font-size: 3em;
 }
 
-.skill-icon {
+.progress {
   position: relative;
+  overflow: visible;
+}
+
+.skill-item {
+  padding: 1em;
 }
 
 i {
+  content: '';
   position: absolute;
-  top: -20%;
+  bottom: -100%;
   text-align: center;
-  left: -5%;
+  left: -10%;
 	font-size: 3em;
-	margin: 1em auto;
+	margin: 0 auto;
   z-index: 999;
   padding: 10px;
   border-radius: 50%;
-  background: rgba(0,0,0,.9);
+  background: #67AAF9;
+}
+
+.bg-success {
+  background-color: #67AAF9!important;
 }
 
 .progress-txt {
   padding-top: 2em;
   padding-bottom: 3em;
 }
+
 
