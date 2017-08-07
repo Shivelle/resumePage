@@ -1,0 +1,32 @@
+body {
+  color: #efefef;
+}
+
+h1 {
+	text-align: center;
+  padding: 2em;
+  font-size: 3em;
+}
+
+.skill-icon {
+  position: relative;
+}
+
+i {
+  position: absolute;
+  top: -20%;
+  text-align: center;
+  left: -5%;
+	font-size: 3em;
+	margin: 1em auto;
+  z-index: 999;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgba(0,0,0,.9);
+}
+
+.progress-txt {
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
